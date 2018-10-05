@@ -45,3 +45,27 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Study Styles */
+
+aside.case-study-sidebar{
+  float: left;
+  width: 300px;
+}
+
+aside.case-study-sidebar h4{
+  font-weight: lighter;
+  font-stretch: condensed;
+}
+
+aside.case-study-images{
+  float: left;
+  width: 600px;
+  margin-left: 50px;
+}
+
+.case-study-images img{
+  display:block;
+  margin-top: 50px;
+  border: 1px solid #dddddd;
+}
