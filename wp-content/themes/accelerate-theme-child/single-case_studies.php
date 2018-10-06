@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying single case Studies
+ * The template for displaying single case studies
  *
  *
  * @package WordPress

@@ -45,6 +45,39 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+.featured-work h3{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.featured-work h6{
+  font-weight: lighter;
+  text-align: center;
+}
+ul.homepage-featured-work{
+  list-style: none;
+  text-align: center;
+}
+
+li.individual-featured-work{
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+}
+
+li.individual-featured-work figure{
+  width: 100%;
+  height: auto;
+}
+
+ul.homepage-featured-work li:first-child{
+  padding-left: 0;
+}
+
+ul.homepage-featured-work li:last-child{
+  padding-right:0;
+}
+
 
 /* Case Study Styles */
 
