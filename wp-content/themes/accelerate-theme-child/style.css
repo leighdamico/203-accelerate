@@ -10,6 +10,8 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+
+/* Home Page Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -22,14 +24,17 @@ Text Domain:  accelerate-theme-child
     background: #45ac9d;
 }
 
+.recent-posts{
+  clear:both;
+}
+
 .blog-post {
-  clear: both;
 	width: 50%;
 	float: left;
 	margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-post h4, .widget-title {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
@@ -46,6 +51,19 @@ Text Domain:  accelerate-theme-child
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+#secondary{
+  float: left;
+  width: 40%;
+  margin-left: 3em;
+}
+
+.tweets{
+  list-style: none;
+  margin-left: 0;
+  margin-top: 5em;
+}
+
 .featured-work h3{
   text-align: center;
   text-transform: uppercase;
@@ -124,4 +142,117 @@ ul.social-media-menu li i{
 ul.social-media-menu span {
     position: absolute !important;
     left: -999em;
+}
+
+/* Contact Me Form Styles */
+
+#nf-field-1-container{
+  width: 45%;
+  float: left;
+}
+
+#nf-field-2-container{
+  width: 45%;
+  clear: none;
+  float: left;
+  margin-left: 10%
+}
+
+#nf-field-4{
+  background: #45ac9d;
+  float: right;
+}
+
+.nf-response-msg{
+  text-align: center;
+}
+
+
+/*About Page Styles*/
+
+#about-header-content p{
+  width: 40%;
+  color: white;
+  font-size: 1.5em;
+}
+
+.intro-comments{
+  width: 60%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.intro-comments h2{
+  margin-top: 0;
+}
+
+.services-list{
+  margin-top: 5em;
+}
+
+.services{
+  clear: both;
+}
+
+.services h2{
+  padding-top: 2em;
+}
+
+.services:nth-child(odd) figure{
+    float: left;
+    width: 25%;
+    margin-right: 3em;
+    padding: 2em 0;
+}
+
+.services:nth-child(even) figure{
+    float: right;
+    width: 25%;
+    margin-left: 3em;
+    padding: 2em 0;
+}
+
+.about-closing{
+  clear: both;
+  border-top: #bfbfbf 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.about-closing a{
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+/* 404 Page Styles */
+
+.error-content img{
+  margin: 3em;
+  float: left;
+}
+
+.error-content h1{
+  color:#45ac9d;
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font-size: 2em;
+}
+
+.error-content a{
+  color:#45ac9d;
+  font-weight: bold;
+}
+
+
+/* Blog Page Styles */
+
+input{
+  margin-top: 1em;
+}
+
+input.button{
+  background: #45ac9d;
+  height: 3em;
 }
